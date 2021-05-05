@@ -94,6 +94,12 @@ body > div:nth-of-type(2) div:nth-of-type(2) div a {
     position: relative;
     top: 20px;
     padding: 20px 30px;
+    transition: 0.15s;
+}
+
+body > div:nth-of-type(2) div:nth-of-type(2) div a:hover {
+  background-color: rgb(114, 114, 114);
+  transition: 0.15s;
 }
 
 footer {
